@@ -1,0 +1,131 @@
+git flow init
+
+
+
+
+
+
+
+
+
+touch task00
+git add .
+git commit -m "task00"
+git checkout master
+git merge --no-ff develop
+git tag -a 0.1 -m "tagging 0.1"
+
+git checkout develop
+touch task01
+git add .
+git commit -m "task01"
+
+touch task02
+git add .
+git commit -m "task02"
+
+touch task03
+git add .
+git commit -m "task03"
+
+git flow feature start a
+touch task04
+git add .
+git commit -m "task04"
+
+git flow feature start b
+touch task05
+git add .
+git commit -m "task05"
+
+git checkout develop
+touch task06
+git add .
+git commit -m "task06"
+
+git flow hotfix start 0.2
+touch task07
+git add .
+git commit -m "task07"
+
+git flow hotfix finish 0.2 -m "task08"
+
+git checkout feature/a
+touch task09
+git add .
+git commit -m "task09"
+
+git checkout feature/b
+touch task10
+git add .
+git commit -m "task10"
+
+touch task11
+git add .
+git commit -m "task11"
+
+git flow feature finish b
+
+git flow release start 1.0
+touch task13
+git add .
+git commit -m "task13"
+
+touch task14
+git add .
+git commit -m "task14"
+
+git checkout develop
+git merge --no-ff release/1.0
+touch task15
+git add .
+git commit -m "task15"
+
+git checkout feature/a
+touch task16
+git add .
+git commit -m "task16"
+
+git flow feature start c
+touch task17
+git add .
+git commit -m "task17"
+
+git checkout release/1.0
+touch task18
+git add .
+git commit -m "task18"
+
+touch task19
+git add .
+git commit -m "task19"
+
+git flow release finish 1.0 -m "task20"
+
+git checkout feature/c
+touch task21
+git add .
+git commit -m "task21"
+
+touch task22
+git add .
+git commit -m "task22"
+
+git checkout feature/a
+touch task23
+git add .
+git commit -m "task23"
+
+git flow feature finish c
+git flow feature finish a
+
+git flow release start 1.1
+touch task25
+git add .
+git commit -m "task25"
+
+git flow release finish 1.1 -m "task26"
+
+git checkout master
+git log --graph --pretty=format:"%s"
+

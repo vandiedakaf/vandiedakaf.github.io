@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 class="page-heading">Posts</h1>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+
+            <div class="post-excerpt">
+                <p>
+                    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                </p>
+            </div>
+            <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!--<h3>Latest Articles</h3>
+
+    {% assign sorted = (site.posts | where:"layout","post" | sort: 'date' | reverse) %}
+
+    {% for page in sorted limit:5 %}
+    <p>
+        <a href="{{page.dir}}">{{page.title}}</a> - {{page.date | date: "%y/%-m/%-d" }}
+    </p>
+    {% endfor %}-->
+</div>
