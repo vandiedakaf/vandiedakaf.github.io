@@ -10,7 +10,7 @@ My choice of version control system recently changed from Mercurial to Git. As p
 
 The goal of this post is simple -- follow the tasks in an attempt to recreate the commit history example from Vincent Driessen's blog.
 
-![git-flow]({{ site.url }}/assets/git-flow.jpg)
+![git-flow]({{ site.baseurl }}/assets/git-flow.jpg){: .image-center }
 
 There is a task for each number in the image above. After completing these tasks you should be more comfortable and confident moving forward with Git-Flow in your future projects.
 
