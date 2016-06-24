@@ -10,7 +10,7 @@ That being said, it is time for some skills spring cleaning. As part of this pro
 
 # Grinding the Java Axe
   
-As a first step towards improvement I've decided to spruce up my Java skills. I'm still mostly using pre-Java 7 features, seeing as that's what most of the Google and StackOverflow examples supplied me with whenever I required assistance. I've consequently registered for a [OCA 1Z0-808][oca808] exam. This course is a prerequisite for most of the other Oracle Certifications. I don't believe this course in itself will be of great benefit to me other than being the first step towards more qualifications. However, I am looking forward to the follow-up course, [OCA 1Z0-809][oca809], and the content that it covers.
+As a first step towards improvement I've decided to spruce up my Java skills. I'm still mostly using pre-Java 7 features, seeing as that's what most of the Google and StackOverflow examples supplied me with whenever I required assistance. I've consequently registered for a [OCA 1Z0-808][oca808] exam. This course is a prerequisite for most of the other Oracle Certifications. I don't believe this course in itself will be of great benefit to me other than being the first step towards more qualifications. However, I am looking forward to the follow-up course, [OCP 1Z0-809][ocp809], and the content that it covers.
 
 # Community Interaction
 
@@ -20,9 +20,9 @@ Other than starting this blog and enrolling in some training, I've also decided 
 
 [generalist]: https://en.wikipedia.org/wiki/Generalist
 [oca808]: https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808
-[oca809]: https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-809
+[ocp809]: https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-809
 [versatilist]: https://en.wikipedia.org/wiki/Versatilist
 *[generalist]: "A person with a wide array of knowledge, the opposite of which is a specialist."
 *[OCA 1Z0-808]: Oracle Certified Associate
-*[OCA 1Z0-809]: Oracle Certified Professional
+*[OCP 1Z0-809]: Oracle Certified Professional
 *[versatilist]: "Someone who can be a specialist for a particular discipline, while at the same time be able to change to another role with the same ease."

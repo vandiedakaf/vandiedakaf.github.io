@@ -20,7 +20,15 @@ In order to host this blog I'm making use of [GitHub Pages][github-pages] which 
  
 # About the Logo
 
-The Afrikaans translation of my French family name is "van die dak af" which means "from the roof". Our family crest comprises a roof with three birds. I searched for triangles (to represent the roof) and found this [image][triangle], created by Jonathan Li, at the [Noun Project][nounproject]. I modified the triangle to fit my needs; this entailed adding three dots to denote the birds and rotating the triangle so that the opening symbolises a chimney. After all that it reminds me of a lab flask.
+The Afrikaans translation of my French family name is "van die dak af" which means "from the roof" and our family crest comprises a roof with three birds.
+
+![dutoit]({{ site.baseurl }}/assets/dutoit.jpg){: .image-center }
+
+I searched for triangles (to represent the roof) and found this [triangle][triangle], created by Jonathan Li, at the [Noun Project][nounproject]. I modified the triangle to fit my needs; this entailed adding three dots to denote the birds and rotating the triangle so that the opening symbolises a chimney.
+
+![vdda]({{ site.baseurl }}/assets/vdda.svg){: .image-center  .image-300 }
+ 
+After all that it reminds me of a lab flask.
 
 Bugs, enhancements and questions can be submitted at the GitHub repository [issues][github-issues] page.
 

@@ -41,6 +41,16 @@ img {
   vertical-align: middle;
 }
 
+.image-center
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.image-300 {
+  width: 300px;
+}
+
 /**
  * Figures
  */
@@ -74,9 +84,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
- * Details
+ * summary
  */
-details {
+summary {
   cursor: pointer;
 }
 
