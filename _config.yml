@@ -8,10 +8,12 @@
 # Site settings
 title: Subject To Change
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://vandiedakaf.github.io" # the base hostname & protocol for your site
+url: "http://vandiedakaf.github.io" # the base hostname & protocol for your site
 twitter_username: vandiedakaf
 github_username:  vandiedakaf
+
 analytics_id: UA-71530551-2
+disqus: vandiedakaf
 
 annotater:
   -
