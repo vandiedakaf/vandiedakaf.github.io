@@ -296,7 +296,5 @@ With the aid of the `git flow *` commands this exercise turned out to be easier 
 
 **-f**
 
-[^god-branch]: This is not an _actual_ branching strategy. I was merely using a single branch for all my commits.
-
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [git-flow-cheatsheet]: http://danielkummer.github.io/git-flow-cheatsheet/
