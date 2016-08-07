@@ -221,6 +221,10 @@
   background-image: linear-gradient(to bottom, transparent, $background-color);
 }
 
+.conway {
+  background: rgba($background-color, .7);
+}
+
 /**
  * Posts
  */

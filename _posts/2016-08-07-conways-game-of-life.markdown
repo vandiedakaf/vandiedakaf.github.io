@@ -15,7 +15,7 @@ I started out by running 20 steps of the game; during each step drawing the live
 
 ![phase1]({{ site.baseurl }}/assets/conway/phase1.png){: .image-center }
 
-Whilst playing around with the d3 animations I realised that it might be better to animate the background (a bounce transition was added to make the animation look less mechanical). This also meant we had to eventually remove the cells that have died (because, soon the page would be filled with thousands of svg circles).
+Whilst playing around with the d3 animations I realised that it might be better to animate the background (a bounce transition was added to make the animation look less mechanical). This also meant we had to eventually remove the cells that have died (or the page would overflow with thousands of svg circles).
  
 Since the game can become stale I added the ability to *activate* cells by moving the mouse cursor over it. Furthermore I changed the new generation rules to the *highlife* variation (cells will now also be born if it has 6 neighbours) which makes it less likely that the game will become stale.
 
