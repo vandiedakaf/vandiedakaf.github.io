@@ -19,9 +19,9 @@ Whilst playing around with the d3 animations I realised that it might be better 
  
 Since the game can become stale I added the ability to *activate* cells by moving the mouse cursor over it. Furthermore I changed the new generation rules to the *highlife* variation (cells will now also be born if it has 6 neighbours) which makes it less likely that the game will become stale.
 
-Once again, the animations started to look mechanical so once again an animation change was made. A new cell would have it's starting position set as one of the neighbouring cells that spawned it and then move to it's own location; this makes it look like the cell is an offspring of another cell migrating to its new location.
+Once again, the animations started to look mechanical so another animation change was made. A new cell would have its starting position set the same as that of one of the neighbouring cells that spawned it and then move to its own location; this makes it look like the cell is an offspring of another cell migrating to its new location.
 
-In the end I've decided not to add this to the blog because I find it both CPU intensive and (most importantly) distracting. The amount of distraction can be reduced by slowing down the animations or creating a 'game free zone' behind the main content of each post. These possible solutions bring me to my next section.
+In the end I've decided not to add this to the blog because I find it both CPU intensive and (most importantly) distracting. The amount of distraction can be reduced by slowing down the animations. This brings me to my next section.
 
 # Scope Creep
 You've probably been a victim of scope creep. I always associate scope creep with my day job, that is until I read a post on procrastination where the author warned against scope creep in your personal projects. Lo and behold here I was adding feature upon feature on this little "background project". I decided to put a stop to the creep and finish whatever I was working on (which was spawning the new cells at the *parent* cell's location). If the current state did not work for the blog (which it doesn't) then I'd just pull the plug on it.
