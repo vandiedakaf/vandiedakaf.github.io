@@ -10,7 +10,7 @@ I wanted to spruce up this blog a bit and thought that having a generated backgr
 
 I decided to use [d3.js][d3js] to illustrate the steps, since I'd like to become more familiar with the library (I don't believe I'm using the library correctly but I have learned a thing or two about it in this process).
 
-# Creating a Static Background
+## Creating a Static Background
 I started out by running 20 steps of the game; during each step drawing the live cells as green circles that reduce in size and change colour to yellow with each step (thus a history of the live cells can be seen). In an attempt to make the cells look more organic their centers were offset by random amounts.
 
 ![phase1]({{ site.baseurl }}/assets/conway/phase1.png){: .image-center }
@@ -23,8 +23,8 @@ Once again, the animations started to look mechanical so another animation chang
 
 In the end I've decided not to add this to the blog because I find it both CPU intensive and (most importantly) distracting. The amount of distraction can be reduced by slowing down the animations. This brings me to my next section.
 
-# Scope Creep
-You've probably been a victim of scope creep. I always associate scope creep with my day job, that is until I read a post on procrastination where the author warned against scope creep in your personal projects. Lo and behold here I was adding feature upon feature on this little "background project". I decided to put a stop to the creep and finish whatever I was working on (which was spawning the new cells at the *parent* cell's location). If the current state did not work for the blog (which it doesn't) then I'd just pull the plug on it.
+## Scope Creep
+You've probably been a victim of scope creep. I've always associated scope creep with my day job, that was until I read a [post][scope-creep1] where the author warned against scope creep in your personal projects (this [post][scope-creep2] also echoes that sentiment). Lo and behold, here I was adding feature upon feature on this little background animation project. I decided to put a stop to the creep and finish whatever I was working on (which was spawning the new cells at the *parent* cell's location). If the current state did not work for the blog (which it doesn't) then I'd just pull the plug on it.
 
 If I've taken anything from this exercise it is that your personal projects are also susceptible to scope creep (probably even more so than with professional projects) and reducing the scope creep may lead to more productive personal projects.
 
@@ -32,3 +32,5 @@ If I've taken anything from this exercise it is that your personal projects are 
 
 [conway_wiki]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 [d3js]: https://d3js.org/
+[scope-creep1]: http://www.fistfulofsquid.com/blog/how_to_write_48_hour_game_in_2_years.html
+[scope-creep2]: http://joelmccracken.github.io/entries/scope-creep/

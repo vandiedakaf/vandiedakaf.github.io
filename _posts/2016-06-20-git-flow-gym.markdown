@@ -6,7 +6,7 @@ categories: git workflow Gym
 ---
 My choice of version control system recently changed from Mercurial to Git. As part of this change I decided that there's no better time than the present to move to a proper branching strategy (and in doing so replacing my god-branch "strategy" -- which is not an _actual_ branching strategy; I was merely using a single branch for all my commits). I've since been meaning to start using [Git-Flow][git-flow] and decided that an effective way to cement this workflow into my day-to-day commits would be create a Git-Flow Gym.
 
-# What is the Git-Flow Gym?
+## What is the Git-Flow Gym?
 
 The goal of this post is simple -- follow the tasks in an attempt to recreate the commit history example from Vincent Driessen's blog.
 
@@ -14,12 +14,12 @@ The goal of this post is simple -- follow the tasks in an attempt to recreate th
 
 There is a task for each number in the image above. After completing these tasks you should be more comfortable and confident moving forward with Git-Flow in your future projects.
 
-# In Preparation
+## In Preparation
 Before you attempt the tasks you might want to familiarise yourself with the strategy behind Git-Flow by reading Vincent Driessen's Blog [post][git-flow]. Note that in this post the naming convention has changed from `branch-*` to `branch/*`.
  
 Also familiarising yourself with the `git flow` commands in Daniel Kummer's Git-Flow [cheatsheet][git-flow-cheatsheet] (note that feature collaboration and release collaboration is not covered in this post).
 
-# Repository Setup
+## Repository Setup
 Run the commands below to set up your local repository:
 
 0. initialise git flow (use the default values)
@@ -39,7 +39,7 @@ Run the commands below to set up your local repository:
 0. tag the master branch (skip this step for other projects)
 `git tag -a 0.1 -m "tagging 0.1"`
 
-# The Tasks
+## The Tasks
 Complete the following tasks in sequence. Changes to the code base are performed by executing the `touch` command, e.g. `touch task##`, where `##` is to be replaced with the task number (e.g. `touch task01`). Furthermore, commit messages follow the pattern `git commit -m "task##"`. A lot of branch switching occurs in theses tasks; the flow has not been optimized so as to get more comfortable with branch checkouts and merges via practice.
 
 01. <details>
