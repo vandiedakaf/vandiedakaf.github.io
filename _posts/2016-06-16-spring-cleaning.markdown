@@ -8,11 +8,11 @@ I've spent the last 5 years as, what I consider to be, a [generalist][generalist
 
 That being said, it is time for some skills spring cleaning. As part of this process I've started this blog as a means to think out loud and to track my progress.
 
-# Grinding the Java Axe
+## Grinding the Java Axe
   
 As a first step towards improvement I've decided to spruce up my Java skills. I'm still mostly using pre-Java 7 features, seeing as that's what most of the Google and StackOverflow examples supplied me with whenever I required assistance. I've consequently registered for a [OCA 1Z0-808][oca808] exam. This course is a prerequisite for most of the other Oracle Certifications. I don't believe this course in itself will be of great benefit to me other than being the first step towards more qualifications. However, I am looking forward to the follow-up course, [OCP 1Z0-809][ocp809], and the content that it covers.
 
-# Community Interaction
+## Community Interaction
 
 Other than starting this blog and enrolling in some training, I've also decided to interact more with the software development community (instead of just sitting on the outside, looking in). My first project pertains to getting hands-on experience with Git-Flow. Head on over to the Git Flow Gym [post]({% post_url 2016-06-20-git-flow-gym %}) for more info on that.
 
