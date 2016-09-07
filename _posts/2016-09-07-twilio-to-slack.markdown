@@ -40,7 +40,7 @@ Here are some improvements (and production-ready requirements) that can be made 
 * Authenticate the origin of the Twilio message.
 * Alter API Gateway response so that Twilio does not give a schema validation warning (i.e. Lambda should return valid XML).
 
-After that I'll leave you with this inspirational video (I thought it was apt to my current mindset of running projects):
+Following on this list of improvements let me share this inspirational video with you(I thought it was apt to my current mindset of running projects):
 <iframe src="https://www.youtube.com/embed/lRtV-ugIT0k" frameborder="0" allowfullscreen></iframe>{: .iframe-youtube }
 
 **-f**
