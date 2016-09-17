@@ -24,7 +24,7 @@ It turns out that using the default 128MB memory allocation setting is a bad ide
 Making a call to the Slack web hook was delightfully easy; so much so that it warrants it's own little section just to mention it.
 
 ## Twilio and the API Gateway
-The Twilio and API Gateway integration was more tricky than I thought it would be. The query parameters from Twilio `GET` request has to be transformed to a Json body (API Gateway does allow transformations via the Velocity Template Language).  An [article][edwin] by Edwin Velazquez covers what you need to know to get this done. Without this article I probably would not have had the patience to figure out what changes to apply to the API Gateway.
+The Twilio and API Gateway integration was more tricky than I thought it would be. The body parameters from Twilio `POST` request has to be transformed to a Json body (API Gateway does allow transformations via the Velocity Template Language).  An [article][edwin] by Edwin Velazquez covers what you need to know to get this done with a `GET` request and a forum [post][mapping] describes how to get this done with a `POST`. Without these articles I probably would not have figured out what changes to apply to the API Gateway.
 
 ## Automation
 I made a point of getting some sort of automation working very early on because I know just how much time can be wasted when you are manually creating an AWS Cloudformation Stack. To this point I made two Gradle tasks, namely createStack and deleteStack.
@@ -35,12 +35,12 @@ In my previous post I mentioned scope creep in my personal projects and this pro
 ## Possible Improvements
 Here are some improvements (and production-ready requirements) that can be made to the project.
 
-* Set the S3 configuration file location in a properties file.
+* ~~Set the S3 configuration file location in a properties file.~~
 * Add an updateStack task to Gradle.
-* Authenticate the origin of the Twilio message.
-* Alter API Gateway response so that Twilio does not give a schema validation warning (i.e. Lambda should return valid XML).
+* ~~Authenticate the origin of the Twilio message.~~
+* ~~Alter API Gateway response so that Twilio does not give a schema validation warning (i.e. Lambda should return valid XML).~~
 
-Following on this list of improvements let me share this inspirational video with you(I thought it was apt to my current mindset of running projects):
+Following on this list of improvements let me share this inspirational video with you (I thought it was apt to my current mindset of running projects):
 <iframe src="https://www.youtube.com/embed/lRtV-ugIT0k" frameborder="0" allowfullscreen></iframe>{: .iframe-youtube }
 
 **-f**
@@ -51,4 +51,5 @@ Following on this list of improvements let me share this inspirational video wit
 [forum]: https://forums.aws.amazon.com/thread.jspa?messageID=691551
 [jmockit]: http://jmockit.org/
 [github]: https://github.com/vandiedakaf/twilio2slack
+[mapping]: https://forums.aws.amazon.com/thread.jspa?messageID=673012&tstart=0#673012
 [why]: https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
