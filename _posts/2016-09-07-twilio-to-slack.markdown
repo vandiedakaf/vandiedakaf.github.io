@@ -33,10 +33,10 @@ I made a point of getting some sort of automation working very early on because 
 In my previous post I mentioned scope creep in my personal projects and this project was no exception. While I was adding the build status badge to the README.md file I thought of adding a code coverage badge. So before I knew it I had connected my repo to [coveralls.io][coveralls.io] and I was busy investigating how I can use [jmockit][jmockit] to mock the S3 and Slack integrations. It took a while before I realised that I was under that all-too-familiar spell again. One day I'll recognize the scope creep before I spend time on it.
 
 ## Possible Improvements
-Here are some improvements (and production-ready requirements) that can be made to the project.
+Here are some improvements (and production-readiness requirements) that can be made to the project.
 
 * ~~Set the S3 configuration file location in a properties file.~~
-* Add an updateStack task to Gradle.
+* ~~Add an updateStack task to Gradle.~~
 * ~~Authenticate the origin of the Twilio message.~~
 * ~~Alter API Gateway response so that Twilio does not give a schema validation warning (i.e. Lambda should return valid XML).~~
 
